@@ -380,7 +380,27 @@
 
 
 .discount-box {
-    background-image: url('../Images/Group\ 39.png');
+    background-image: url('Images/39.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    margin-top: 10px;
+    padding: 2% 0% 3%;
+    object-fit: cover;
+}
+
+.discount-box2 {
+    background-image: url('Images/40.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    margin-top: 10px;
+    padding: 2% 0% 3%;
+    object-fit: cover;
+}
+
+.discount-box3 {
+    background-image: url('Images/39.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     /* height: 500px; */
@@ -411,7 +431,7 @@
 
 .discount-items {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 }
 
